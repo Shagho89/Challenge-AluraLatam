@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>ENCRIPTADOR</title>
+        <link rel="stylesheet" href="SPRINT1/Style.css">
+    </head>
+    <body>
+        <header>
+            <img class="imagen-titulo" src="imagenes/Logo.png">
+            <h1>Desafio Encriptador</h1>
+        </header>
+        <main>
+            <div class="encriptado">
+                <input type="text" id="cajatexto" placeholder="Escriba su texto aquí.">
+                <button onclick="encriptartexto()">Encriptar</button>
+                <button onclick="borrartexto()">Borrar</button>
+            </div>    
+            <div class="desencriptado">
+                <input type="text" id="resultadocaja" placeholder="Escriba su texto aquí.">
+                <button onclick="desencriptartexto()">Desencriptar</button>
+            </div>
+            <div class="copiado">
+                <input type="text" id="copiar" readonly>
+                <button onclick="copiar()">Copiar</button> 
+            </div>
+
+        </main>
+        <footer>
+            <h2> Propietario: Santiago Montoya</h2>
+        </footer>
+    <script src="encriptador.js"></script>
+    </body>
+
+
+
+
+
+</html>

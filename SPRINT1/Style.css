@@ -1,0 +1,84 @@
+header{
+    background: black;
+    padding: 20px;
+    width: 100%;
+}
+.imagen-titulo{
+  width: 200px 50px;
+  height: 50px;
+  background: white;
+  padding: 20px auto;
+}
+h1{
+  color: white;
+  text-align: center;
+  text-transform: bold;
+}
+main{
+    width: 1000px;
+}
+
+input[type="text"]#cajatexto {
+    height: 500px;
+    padding: 10px;
+    background-image: url(imagenes2/1.png);
+    background-size: cover; /* Ajustar la imagen de fondo del input */
+    margin-left: 10px;
+    overflow-y: auto;
+    margin-top: 15px;
+  }
+
+  input[type="text"]#resultadocaja {
+    height: 500px;
+    padding: 10px;
+    background-size: cover; /* Ajustar la imagen de fondo del input */
+    overflow-y: auto;
+    margin-top: 15px;
+  }
+
+  input[type="text"]#copiar {
+    height: 500px;
+    padding: 10px;
+    background-size: cover; /* Ajustar la imagen de fondo del input */
+    margin-top: 15px;
+  }
+  .encriptado input[type="text"],
+.encriptado button {
+  display: inline-block;
+  vertical-align: middle; /* Para alinear verticalmente al centro */
+  margin-right: 5px; /* Espacio entre los elementos */
+}
+
+.encriptado input[type="text"] {
+  width: 200px; /* Ancho del input de texto */
+}
+
+.encriptado button {
+  padding: 8px 12px; /* Ajustar el tamaño del botón */
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  vertical-align: middle;
+}
+.desencriptado{
+    display: inline-block;
+
+}
+.encriptado{
+    display: inline-block;
+}
+.copiado{
+    display: inline-block;
+}
+footer{
+    font-size: 20px;
+    background-color: black;
+    text-transform: bold;
+    font-style: italic;
+    margin: 0 auto;
+    color: white;
+
+
+}
